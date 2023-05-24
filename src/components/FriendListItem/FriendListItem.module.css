@@ -1,0 +1,33 @@
+.item {
+width: 600px;
+text-align: center;
+display: flex;
+text-align: left;
+align-items: center;
+gap: 30px;
+padding: 15px 30px;
+font-size: 32px;
+font-weight: bold;
+border-radius: 5px;
+box-shadow: 4px 4px 10px#cecec6;
+margin: 0 auto 20px;
+}
+
+.status {
+width: 25px;
+height: 25px;
+border-radius: 50%;
+background-color: red;
+}
+
+.online {
+    composes: status;
+    background-color: green;
+}
+
+.avatar {
+    width: 100px;
+    background-color: #f6e487;
+    border-radius: 7px;
+    padding: 10px;
+}
